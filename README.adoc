@@ -1,0 +1,24 @@
+# webjars-polymer
+
+This repository contains maven modules generated using https://www.npmjs.com/package/bower2webjar
+
+Do visit http://www.webjars.org/ to learn more about WebJars.
+
+NOTE: Work in progress!
+
+## Usage
+
+Let´s say you need to build the webjars for the iron elements:
+
+- go to the iron folder
+- ``mvn clean package``
+
+If you greedily want it all:
+
+- stay at the root
+- ``mvn clean package`` or even better ``mvn clean install``
+
+Cherry on top:
+
+- ``mvn clean dishes``
+
