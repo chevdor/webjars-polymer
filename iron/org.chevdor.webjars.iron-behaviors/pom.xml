@@ -11,55 +11,46 @@
     <packaging>jar</packaging>
     <groupId>org.chevdor.webjars</groupId>
     <artifactId>iron-behaviors</artifactId>
-    <version>1.0.11</version>
+    <version>1.0.12</version>
     <name>iron-behaviors</name>
-    <description>WebJar for Polymer ${project.artifactId}</description>
-    <url>http://webjars.org</url>
+    <description>Provides a set of behaviors for the iron elements</description>
+    <url>undefined</url>
 
     <developers>
         <developer>
-            <id>chevdor</id>
-            <name>Chevdor</name>
-            <email>chevdor@gmail.com</email>
+            <id>polymerAuthors</id>
+            <name>The Polymer Authors</name>
         </developer>
     </developers>
 
     <licenses>
         <license>
             <name>BSD</name>
-            <url>https://github.com/polymer/polymer/blob/master/LICENSE</url>
-            <distribution>repo</distribution>
+            <url>http://polymer.github.io/LICENSE.txt</url>
+            <distribution>git://github.com/PolymerElements/iron-behaviors.git</distribution>
         </license>
     </licenses>
 
-<!--     <scm>
-        <url>http://github.com/webjars/polymer</url>
-        <connection>scm:git:https://github.com/webjars/polymer.git</connection>
-        <developerConnection>scm:git:https://github.com/webjars/polymer.git</developerConnection>
-        <tag>polymer-1.2.3</tag>
-    </scm> -->
-    
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <upstream.version>${project.version}</upstream.version>
-        <upstream.url>https://github.com/PolymerElements/${project.artifactId}/archive</upstream.url>
+        <upstream.url>https://github.com/PolymerElements/iron-behaviors/archive</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${upstream.version}</destDir>
     </properties>
 
     <dependencies>
-         <dependency>
-            <groupId>org.chevdor.webjars</groupId>
-            <artifactId>iron-a11y-keys-behavior</artifactId>
-            <version>1.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>org.chevdor.webjars</groupId>
-            <artifactId>polymer</artifactId>
-            <version>1.2.3</version>
-        </dependency>
-    </dependencies>
+		<dependency>
+			<groupId>org.chevdor.webjars</groupId>
+			<artifactId>polymer</artifactId>
+			<version>[1.2.0,)</version>
+		</dependency>
+		<dependency>
+			<groupId>org.chevdor.webjars</groupId>
+			<artifactId>iron-a11y-keys-behavior</artifactId>
+			<version>[1.0.0,)</version>
+		</dependency>
+	</dependencies>
     
-
     <build>
         <plugins>
             <plugin>
@@ -105,9 +96,7 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.5.1</version>
-            </plugin>
-           
+            </plugin> 
         </plugins>
     </build>
-
 </project>
