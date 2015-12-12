@@ -10,12 +10,12 @@ NOTE: Work in progress!
 
 Let´s say you need to build the webjars for the iron elements:
 
-- go to the iron folder
+- go to the +iron+ folder
 - ``mvn clean package``
 
 If you greedily want it all:
 
-- stay at the root
+- stay at the root of the repo
 - ``mvn clean package`` or even better ``mvn clean install``
 
 Cherry on top:

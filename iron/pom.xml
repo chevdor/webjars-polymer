@@ -6,9 +6,9 @@
         <groupId>org.chevdor.webjars</groupId>
         <artifactId>iron</artifactId>
         <version>1.0.0</version>
-        <name>iron</name>
+        <name>${project.artifactId}</name>
         
-        <description>Aggregator to build all the iron webjars.</description>
+        <description>Aggregator to build all the ${project.artifactId} webjars.</description>
         <developers>
             <developer>
                 <id>chevdor</id>
