@@ -49,13 +49,17 @@
     <dependencies>
         <dependency>
             <groupId>org.chevdor.webjars</groupId>
-            <artifactId>core-icons</artifactId>
-            <version>0.5.6</version>
+            <artifactId>polymer</artifactId>
+            <version>1.2.3</version>
         </dependency>
         <dependency>
             <groupId>org.chevdor.webjars</groupId>
-            <artifactId>core-iconset</artifactId>
-            <version>0.5.6</version>
+            <artifactId>iron-flex-layout</artifactId>
+            <version>[1.0.0,)</version>
+        </dependency> <dependency>
+            <groupId>org.chevdor.webjars</groupId>
+            <artifactId>iron-meta</artifactId>
+            <version>[1.0.0,)</version>
         </dependency>
     </dependencies>
 
