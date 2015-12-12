@@ -7,6 +7,7 @@
         <version>1.0.0</version>
         <name>${project.artifactId}</name>
         <description>Aggregator to build all the ${project.artifactId} webjars.</description>
+        
         <developers>
             <developer>
                 <id>chevdor</id>
