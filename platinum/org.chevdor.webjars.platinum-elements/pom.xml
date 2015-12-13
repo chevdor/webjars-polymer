@@ -4,7 +4,7 @@
         <packaging>jar</packaging>
         <groupId>org.chevdor.webjars</groupId>
         <artifactId>platinum-elements</artifactId>
-        <version>undefined</version>
+        <version>1.2.0</version>
         <name>platinum-elements</name>
         <description>Elements to turn your web page into a true webapp, with push, offline, bluetooth and more.</description>
         <url>https://github.com/PolymerElements/platinum-elements</url>

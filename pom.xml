@@ -15,6 +15,7 @@
         </developers>
         <modules>
             <module>core</module>
+            <module>misc</module>
             <module>polymer</module>
             <module>iron</module>
             <module>paper</module>
@@ -22,6 +23,6 @@
             <module>neon</module>
             <module>google</module>
             <module>gold</module>
-            <module>misc</module>
+            
         </modules>
     </project>
