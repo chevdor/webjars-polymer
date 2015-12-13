@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
         <modelVersion>4.0.0</modelVersion>
-        
         <packaging>pom</packaging>
         <groupId>org.chevdor.webjars</groupId>
         <artifactId>iron</artifactId>
         <version>1.0.0</version>
         <name>${project.artifactId}</name>
-        
         <description>Aggregator to build all the ${project.artifactId} webjars.</description>
         <developers>
             <developer>
@@ -55,7 +53,6 @@
             <module>org.chevdor.webjars.iron-icon</module>
             <module>org.chevdor.webjars.iron-validator-behavior</module>
             <module>org.chevdor.webjars.iron-icons</module>
-            <module>org.chevdor.webjars.neon-animation</module>
             <module>org.chevdor.webjars.iron-iconset</module>
             <module>org.chevdor.webjars.promise-polyfill</module>
             <module>org.chevdor.webjars.iron-iconset-svg</module>
