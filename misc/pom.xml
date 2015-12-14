@@ -7,7 +7,6 @@
         <version>1.0.0</version>
         <name>${project.artifactId}</name>
         <description>Aggregator to build all the ${project.artifactId} webjars.</description>
-        
         <developers>
             <developer>
                 <id>chevdor</id>
@@ -17,5 +16,7 @@
         <modules>
             <module>org.chevdor.webjars.marked-element</module>
             <module>org.chevdor.webjars.prism-element</module>
+            <module>org.chevdor.webjars.cors-upload-sample</module>
+            <module>org.chevdor.webjars.javascript-api-utils</module>
         </modules>
     </project>

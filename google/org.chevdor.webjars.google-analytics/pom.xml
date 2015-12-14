@@ -40,7 +40,7 @@
             </dependency>
             <dependency>
                 <groupId>org.chevdor.webjars</groupId>
-                <artifactId>ga-api-utils</artifactId>
+                <artifactId>javascript-api-utils</artifactId>
                 <version>[0.2.0,)</version>
             </dependency>
             <dependency>
