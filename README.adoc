@@ -16,9 +16,24 @@ Let´s say you need to build the webjars for the iron elements:
 If you greedily want it all:
 
 - stay at the root of the repo
-- ``mvn clean package`` or even better ``mvn clean install``
+- ``mvn clean package``, ``mvn clean install`` or ``mvn clean deploy``
 
 Cherry on top:
 
 - ``mvn clean dishes``
 
+
+The POM at the root level mentions ${nexus-releases-url} and ${nexus-snapshots-url}. You may define them in your ~/.m2/settings.xml as follow:
+
+  	<profiles>
+      <profile>
+        <id>mynexus</id>
+        <properties>
+          <nexus-releases-url>http://localhost:8081/repository/maven-releases</nexus-release-url>
+          <nexus-snapshots-url>http://localhost:8081/repository/maven-snapshots</nexus-snapshot-url>
+        </properties>
+      </profile>
+    </profiles>
+    <activeProfiles>
+      <activeProfile>mynexus</activeProfile>
+    </activeProfiles>
