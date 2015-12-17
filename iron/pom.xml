@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
         <parent>
-            <groupId>org.chevdor.webjars</groupId>
+            <groupId>org.chevdor.webjars.polymer</groupId>
             <artifactId>polymerElements</artifactId>
             <version>1.0.0</version>
         </parent>
         <modelVersion>4.0.0</modelVersion>
         <packaging>pom</packaging>
-        <groupId>org.chevdor.webjars</groupId>
+        <groupId>org.chevdor.webjars.polymer.iron</groupId>
         <artifactId>iron</artifactId>
         <version>1.0.0</version>
         <name>${project.artifactId}</name>
@@ -19,49 +19,49 @@
             </developer>
         </developers>
         <modules>
-            <module>org.chevdor.webjars.hydrolysis</module>
-            <module>org.chevdor.webjars.iron-input</module>
-            <module>org.chevdor.webjars.iron-a11y-announcer</module>
-            <module>org.chevdor.webjars.iron-jsonp-library</module>
-            <module>org.chevdor.webjars.iron-a11y-keys</module>
-            <module>org.chevdor.webjars.iron-label</module>
-            <module>org.chevdor.webjars.iron-a11y-keys-behavior</module>
-            <module>org.chevdor.webjars.iron-list</module>
-            <module>org.chevdor.webjars.iron-ajax</module>
-            <module>org.chevdor.webjars.iron-localstorage</module>
-            <module>org.chevdor.webjars.iron-autogrow-textarea</module>
-            <module>org.chevdor.webjars.iron-media-query</module>
-            <module>org.chevdor.webjars.iron-behaviors</module>
-            <module>org.chevdor.webjars.iron-menu-behavior</module>
-            <module>org.chevdor.webjars.iron-checked-element-behavior</module>
-            <module>org.chevdor.webjars.iron-meta</module>
-            <module>org.chevdor.webjars.iron-collapse</module>
-            <module>org.chevdor.webjars.iron-overlay-behavior</module>
-            <module>org.chevdor.webjars.iron-component-page</module>
-            <module>org.chevdor.webjars.iron-page-url</module>
-            <module>org.chevdor.webjars.iron-demo-helpers</module>
-            <module>org.chevdor.webjars.iron-pages</module>
-            <module>org.chevdor.webjars.iron-doc-viewer</module>
-            <module>org.chevdor.webjars.iron-range-behavior</module>
-            <module>org.chevdor.webjars.iron-dropdown</module>
-            <module>org.chevdor.webjars.iron-resizable-behavior</module>
-            <module>org.chevdor.webjars.iron-elements</module>
-            <module>org.chevdor.webjars.iron-selector</module>
-            <module>org.chevdor.webjars.iron-fit-behavior</module>
-            <module>org.chevdor.webjars.iron-signals</module>
-            <module>org.chevdor.webjars.iron-flex-layout</module>
-            <module>org.chevdor.webjars.iron-swipeable-container</module>
-            <module>org.chevdor.webjars.iron-form</module>
-            <module>org.chevdor.webjars.iron-test-helpers</module>
-            <module>org.chevdor.webjars.iron-form-element-behavior</module>
-            <module>org.chevdor.webjars.iron-validatable-behavior</module>
-            <module>org.chevdor.webjars.iron-icon</module>
-            <module>org.chevdor.webjars.iron-validator-behavior</module>
-            <module>org.chevdor.webjars.iron-icons</module>
-            <module>org.chevdor.webjars.iron-iconset</module>
-            <module>org.chevdor.webjars.promise-polyfill</module>
-            <module>org.chevdor.webjars.iron-iconset-svg</module>
-            <module>org.chevdor.webjars.web-animations-js</module>
-            <module>org.chevdor.webjars.iron-image</module>
+            <module>hydrolysis</module>
+            <module>iron-input</module>
+            <module>iron-a11y-announcer</module>
+            <module>iron-jsonp-library</module>
+            <module>iron-a11y-keys</module>
+            <module>iron-label</module>
+            <module>iron-a11y-keys-behavior</module>
+            <module>iron-list</module>
+            <module>iron-ajax</module>
+            <module>iron-localstorage</module>
+            <module>iron-autogrow-textarea</module>
+            <module>iron-media-query</module>
+            <module>iron-behaviors</module>
+            <module>iron-menu-behavior</module>
+            <module>iron-checked-element-behavior</module>
+            <module>iron-meta</module>
+            <module>iron-collapse</module>
+            <module>iron-overlay-behavior</module>
+            <module>iron-component-page</module>
+            <module>iron-page-url</module>
+            <module>iron-demo-helpers</module>
+            <module>iron-pages</module>
+            <module>iron-doc-viewer</module>
+            <module>iron-range-behavior</module>
+            <module>iron-dropdown</module>
+            <module>iron-resizable-behavior</module>
+            <module>iron-elements</module>
+            <module>iron-selector</module>
+            <module>iron-fit-behavior</module>
+            <module>iron-signals</module>
+            <module>iron-flex-layout</module>
+            <module>iron-swipeable-container</module>
+            <module>iron-form</module>
+            <module>iron-test-helpers</module>
+            <module>iron-form-element-behavior</module>
+            <module>iron-validatable-behavior</module>
+            <module>iron-icon</module>
+            <module>iron-validator-behavior</module>
+            <module>iron-icons</module>
+            <module>iron-iconset</module>
+            <module>promise-polyfill</module>
+            <module>iron-iconset-svg</module>
+            <module>web-animations-js</module>
+            <module>iron-image</module>
         </modules>
     </project>

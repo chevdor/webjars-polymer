@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
         <parent>
-            <groupId>org.chevdor.webjars</groupId>
+            <groupId>org.chevdor.webjars.polymer</groupId>
             <artifactId>polymerElements</artifactId>
             <version>1.0.0</version>
         </parent>
         <modelVersion>4.0.0</modelVersion>
         <packaging>pom</packaging>
-        <groupId>org.chevdor.webjars</groupId>
+        <groupId>org.chevdor.webjars.polymer.gold</groupId>
         <artifactId>gold</artifactId>
         <version>1.0.0</version>
         <name>${project.artifactId}</name>
@@ -19,12 +19,12 @@
             </developer>
         </developers>
         <modules>
-            <module>org.chevdor.webjars.gold-cc-cvc-input</module>
-            <module>org.chevdor.webjars.gold-cc-expiration-input</module>
-            <module>org.chevdor.webjars.gold-cc-input</module>
-            <module>org.chevdor.webjars.gold-elements</module>
-            <module>org.chevdor.webjars.gold-email-input</module>
-            <module>org.chevdor.webjars.gold-phone-input</module>
-            <module>org.chevdor.webjars.gold-zip-input</module>
+            <module>gold-cc-cvc-input</module>
+            <module>gold-cc-expiration-input</module>
+            <module>gold-cc-input</module>
+            <module>gold-elements</module>
+            <module>gold-email-input</module>
+            <module>gold-phone-input</module>
+            <module>gold-zip-input</module>
         </modules>
     </project>

@@ -18,12 +18,9 @@ If you greedily want it all:
 - stay at the root of the repo
 - ``mvn clean package``, ``mvn clean install`` or ``mvn clean deploy``
 
-Cherry on top:
 
-- ``mvn clean dishes``
-
-
-The POM at the root level mentions ${nexus-releases-url} and ${nexus-snapshots-url}. You may define them in your ~/.m2/settings.xml as follow:
+The POM at the root level mentions +${nexus-releases-url}+ and +${nexus-snapshots-url}+. 
+You may define them in your ~/.m2/settings.xml as follow:
 
   	<profiles>
       <profile>

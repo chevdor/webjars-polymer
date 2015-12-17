@@ -1,0 +1,1 @@
+find . -maxdepth 2 -type d -exec sh -c '(cd {} && mvn -N clean package)' ';'
