@@ -8,7 +8,7 @@
         <modelVersion>4.0.0</modelVersion>
         <packaging>jar</packaging>
         <groupId>org.chevdor.webjars.polymer.google</groupId>
-        <artifactId>iron-analytics</artifactId>
+        <artifactId>google-analytics</artifactId>
         <version>1.2.1</version>
         <name>google-analytics</name>
         <description>Encapsulates Google Analytics dashboard features into web components</description>
@@ -49,12 +49,12 @@
                 <version>[0.2.0,)</version>
             </dependency>
             <dependency>
-                <groupId>org.chevdor.webjars.polymer</groupId>
+                <groupId>org.chevdor.webjars.polymer.google</groupId>
                 <artifactId>google-chart</artifactId>
                 <version>[1.0.0,)</version>
             </dependency>
             <dependency>
-                <groupId>org.chevdor.webjars.polymer</groupId>
+                <groupId>org.chevdor.webjars.polymer.google</groupId>
                 <artifactId>google-signin</artifactId>
                 <version>[1.0.0,)</version>
             </dependency>

@@ -8,7 +8,7 @@
         <modelVersion>4.0.0</modelVersion>
         <packaging>jar</packaging>
         <groupId>org.chevdor.webjars.polymer.google</groupId>
-        <artifactId>iron-chart</artifactId>
+        <artifactId>google-chart</artifactId>
         <version>1.0.4</version>
         <name>google-chart</name>
         <description>Encapsulates Google Charts into a web component</description>
@@ -39,7 +39,7 @@
                 <version>[1.0.0,)</version>
             </dependency>
             <dependency>
-                <groupId>org.chevdor.webjars.polymer</groupId>
+                <groupId>org.chevdor.webjars.polymer.google</groupId>
                 <artifactId>google-apis</artifactId>
                 <version>[1.0.0,)</version>
             </dependency>

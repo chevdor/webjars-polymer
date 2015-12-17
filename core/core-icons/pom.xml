@@ -42,6 +42,11 @@
         <dependencies>
             <dependency>
                 <groupId>org.chevdor.webjars.polymer</groupId>
+                <artifactId>polymer</artifactId>
+                <version>1.2.3</version>
+            </dependency>
+            <dependency>
+                <groupId>org.chevdor.webjars.polymer.core</groupId>
                 <artifactId>core-icon</artifactId>
                 <version>0.5.6</version>
             </dependency>
@@ -49,11 +54,6 @@
                 <groupId>org.chevdor.webjars.polymer.core</groupId>
                 <artifactId>core-iconset-svg</artifactId>
                 <version>0.5.6</version>
-            </dependency>
-            <dependency>
-                <groupId>org.chevdor.webjars.polymer.core</groupId>
-                <artifactId>polymer</artifactId>
-                <version>1.2.3</version>
             </dependency>
         </dependencies>
         <build>

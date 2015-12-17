@@ -41,7 +41,7 @@
         </properties>
         <dependencies>
             <dependency>
-                <groupId>org.chevdor.webjars.polymer</groupId>
+                <groupId>org.chevdor.webjars.polymer.core</groupId>
                 <artifactId>core-iconset</artifactId>
                 <version>0.5.6</version>
             </dependency>
